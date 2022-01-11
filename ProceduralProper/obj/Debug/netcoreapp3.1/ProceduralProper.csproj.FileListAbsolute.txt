@@ -1,0 +1,14 @@
+C:\Users\wpola\source\repos\ProceduralProper\ProceduralProper\bin\Debug\netcoreapp3.1\ProceduralProper.exe
+C:\Users\wpola\source\repos\ProceduralProper\ProceduralProper\bin\Debug\netcoreapp3.1\ProceduralProper.deps.json
+C:\Users\wpola\source\repos\ProceduralProper\ProceduralProper\bin\Debug\netcoreapp3.1\ProceduralProper.runtimeconfig.json
+C:\Users\wpola\source\repos\ProceduralProper\ProceduralProper\bin\Debug\netcoreapp3.1\ProceduralProper.runtimeconfig.dev.json
+C:\Users\wpola\source\repos\ProceduralProper\ProceduralProper\bin\Debug\netcoreapp3.1\ProceduralProper.dll
+C:\Users\wpola\source\repos\ProceduralProper\ProceduralProper\bin\Debug\netcoreapp3.1\ProceduralProper.pdb
+C:\Users\wpola\source\repos\ProceduralProper\ProceduralProper\obj\Debug\netcoreapp3.1\ProceduralProper.csproj.AssemblyReference.cache
+C:\Users\wpola\source\repos\ProceduralProper\ProceduralProper\obj\Debug\netcoreapp3.1\ProceduralProper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wpola\source\repos\ProceduralProper\ProceduralProper\obj\Debug\netcoreapp3.1\ProceduralProper.AssemblyInfoInputs.cache
+C:\Users\wpola\source\repos\ProceduralProper\ProceduralProper\obj\Debug\netcoreapp3.1\ProceduralProper.AssemblyInfo.cs
+C:\Users\wpola\source\repos\ProceduralProper\ProceduralProper\obj\Debug\netcoreapp3.1\ProceduralProper.csproj.CoreCompileInputs.cache
+C:\Users\wpola\source\repos\ProceduralProper\ProceduralProper\obj\Debug\netcoreapp3.1\ProceduralProper.dll
+C:\Users\wpola\source\repos\ProceduralProper\ProceduralProper\obj\Debug\netcoreapp3.1\ProceduralProper.pdb
+C:\Users\wpola\source\repos\ProceduralProper\ProceduralProper\obj\Debug\netcoreapp3.1\ProceduralProper.genruntimeconfig.cache
