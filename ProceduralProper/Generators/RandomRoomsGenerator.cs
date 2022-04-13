@@ -12,7 +12,7 @@ namespace ProceduralProper.Generators
             List<char[,]> dungeons = new List<char[,]>();
             int numberOfRooms = CalculateNumberOfRooms(dungeon);
 
-            //Foreach room we want to generate
+            //For each room we want to generate
             for (int i = 0; i < numberOfRooms; i++)
             {
                 int roomSizeX = 0;

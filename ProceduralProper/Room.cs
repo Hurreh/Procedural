@@ -12,7 +12,7 @@ namespace ProceduralProper
         public bool Solved { get; set; }
         public Tile RoomCenter { get; set; }
         public bool IsCorridor { get; set; }
-
+        public char[,] drawMap { get; set; }
         public Room()
         {
             Tiles = new List<Tile>();

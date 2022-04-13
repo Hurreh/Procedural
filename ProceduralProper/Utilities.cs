@@ -116,7 +116,7 @@ namespace ProceduralProper
                 }
             }
             roomsSorted = listRooms(rooms, fullRooms);
-            roomsSorted = addCorridors(roomsSorted);
+            //roomsSorted = addCorridors(roomsSorted);
             for (int i = 0; i < roomsSorted.Count(); i++)
             {
                 roomsSorted[i] = DefineWalls(roomsSorted[i]);
@@ -297,11 +297,18 @@ namespace ProceduralProper
             List<Room> listOfRooms = new List<Room>();
             foreach (var singleRoom in fullRooms)
             {
+                int maxX = singleRoom.Max(room => room.x) + 1; 
+                int maxY = singleRoom.Max(room => room.y) + 1;
+                char[,] drawMap = new char[maxX, maxY];
                 Room room = new Room();
                 foreach (var tile in singleRoom)
                 {
+                    //dodać tworzenie na nowo mapy.
+                    drawMap[tile.x, tile.y] = '.';
+
                     room.Tiles.Add(new Tile(tile.x, tile.y));
                 }
+                room.drawMap = drawMap;
                 listOfRooms.Add(room);
             }
             for (int i = 0; i < rooms.Count(); i++)
@@ -320,7 +327,7 @@ namespace ProceduralProper
         {
             foreach (var tile in room.Tiles) //FROM MOST COMMON TO LEAST COMMON
             {
-                //MID -- this works, the rest doesn't;
+                //MID 
                 if (room.Tiles.Exists(x => x.X == tile.X + 1 && x.Y == tile.Y)
                     && room.Tiles.Exists(x => x.X == tile.X - 1 && x.Y == tile.Y)
                     && room.Tiles.Exists(x => x.X == tile.X && x.Y + 1 == tile.Y)

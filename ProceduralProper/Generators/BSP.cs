@@ -29,6 +29,7 @@ namespace ProceduralProper.Generators
             double coinFlip = random.NextDouble();
             char[,] newMap;
             //cut Horizontally
+            //true - cut horizontally, false - cut vertically
             if (axis)
             {
                 double leftRight = random.NextDouble();
